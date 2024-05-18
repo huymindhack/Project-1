@@ -7,7 +7,7 @@ class Controller{
     }
 
     public function view($view){
-        require_once "/Applications/XAMPP/xamppfiles/htdocs/Project-1/mvc/views/Templete/".$view.".php";
+        require_once "./mvc/views/Templete/".$view.".php";
     }
 
 }
